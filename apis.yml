@@ -1,8 +1,29 @@
 aid: buildzoom
 name: BuildZoom
-description: BuildZoom is a company surfaced as a portfolio company of a16z, y-combinator and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  BuildZoom connects homeowners and property owners with vetted local general
+  contractors, using data-driven matching across profiles for 4M+ licensed
+  contractors and construction-permit history spanning hundreds of millions of
+  projects. Alongside the contractor marketplace, BuildZoom operates the
+  Building Permit Database (buildzoomdata.com) — a normalized dataset of 350M+
+  building permits covering 25+ years, 2,400 jurisdictions, and 90% of the US
+  population, plus 6M+ licensed contractors. That data is delivered through bulk
+  data exports (weekly/monthly, full and incremental), a RESTful Data API with
+  batch requests and sub-second latency for property permit history and
+  contractor license/permit lookups, a Data Explorer web app, and a Permit Map.
+  BuildZoom is backed by Andreessen Horowitz (a16z) and Y Combinator.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://media.buildzoom.com/filestack/image/wqbUmQhIT6SVewUC4qcK
 url: https://raw.githubusercontent.com/api-evangelist/buildzoom/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,12 +34,66 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-apis: []
+- Construction
+- Building Permits
+- Contractors
+- Real Estate
+- Home Improvement
+- Property Data
+- Marketplace
+apis:
+- name: BuildZoom Data API
+  description: >-
+    RESTful Data API over BuildZoom's Building Permit Database — property permit
+    history and contractor license/permit information, with batch requests and
+    sub-second latency. Delivered as part of the buildzoomdata.com data product
+    (bulk exports, Data Explorer, and Permit Map are the sibling delivery
+    channels). API access and developer documentation are gated behind a
+    buildzoomdata.com account.
+  humanURL: https://www.buildzoomdata.com/
+  baseURL: https://api.buildzoomdata.com
+  tags:
+  - Building Permits
+  - Contractors
+  - Property Data
+  properties:
+  - type: Website
+    url: https://www.buildzoomdata.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/buildzoom-domain-security.yml
+- type: LLMsTxt
+  url: llms/buildzoom-llms.txt
+- type: Website
+  url: https://www.buildzoom.com/
+- type: DeveloperPortal
+  url: https://www.buildzoomdata.com/
+- type: Blog
+  url: https://www.buildzoom.com/blog/
+- type: Pricing
+  url: https://www.buildzoom.com/subscriptions
+- type: Login
+  url: https://www.buildzoomdata.com/user/sign_in
+- type: Support
+  url: https://www.buildzoom.com/help
+- type: HelpCenter
+  url: https://www.buildzoom.com/contact-us
+- type: GitHubOrganization
+  url: https://github.com/buildzoom
+- type: TermsOfService
+  url: https://www.buildzoomdata.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.buildzoomdata.com/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
