@@ -12,6 +12,17 @@ description: >-
   batch requests and sub-second latency for property permit history and
   contractor license/permit lookups, a Data Explorer web app, and a Permit Map.
   BuildZoom is backed by Andreessen Horowitz (a16z) and Y Combinator.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
