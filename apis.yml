@@ -51,7 +51,7 @@ tags:
 - Construction
 - Building Permits
 - Contractors
-- Real-Estate
+- Real Estate
 - Home Improvement
 - Property Data
 - Marketplace
@@ -64,6 +64,7 @@ tags_raw:
 - Home Improvement
 - Property Data
 - Marketplace
+- Real-Estate
 apis:
 - name: BuildZoom Data API
   description: >-
