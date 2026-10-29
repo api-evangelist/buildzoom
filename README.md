@@ -64,6 +64,89 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-BuildZoom is a company surfaced as a portfolio company of a16z, y-combinator and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+BuildZoom connects homeowners and property owners with vetted local general contractors, using data-driven matching across profiles for 4M+ licensed contractors and construction-permit history spanning hundreds of millions of projects. Alongside the contractor marketplace, BuildZoom operates the Building Permit Database (buildzoomdata.com) — a normalized dataset of 350M+ building permits covering 25+ years, 2,400 jurisdictions, and 90% of the US population, plus 6M+ licensed contractors. That data is delivered through bulk data exports (weekly/monthly, full and incremental), a RESTful Data API with batch requests and sub-second latency for property permit history and contractor license/permit lookups, a Data Explorer web app, and a Permit Map. BuildZoom is backed by Andreessen Horowitz (a16z) and Y Combinator.
 
-Backed by: a16z, y-combinator
+**Areas:** Company · Construction · Building Permits · Contractors · Real Estate · Home Improvement · Property Data · Marketplace
+
+## BuildZoom on APIs.io
+
+Everything profiled for BuildZoom is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/buildzoom/](https://apis.io/providers/buildzoom/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [BuildZoom Data API](https://apis.io/apis/buildzoom/buildzoom-data-api/) — RESTful Data API over BuildZoom's Building Permit Database — property permit history and contractor license/permit information, with batch requests and…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Buildzoom Domain Security](https://apis.io/security/buildzoom/buildzoom-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.buildzoom.com/)
+- [Pricing](https://www.buildzoom.com/subscriptions)
+- [Support](https://www.buildzoom.com/help)
+- [Blog](https://www.buildzoom.com/blog/)
+- [Terms of service](https://www.buildzoomdata.com/terms-of-service)
+- [Privacy policy](https://www.buildzoomdata.com/privacy-policy)
+- [GitHub](https://github.com/buildzoom)
+
+## API Evangelist rating
+
+**Kin Score 18.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 38.2 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/buildzoom/](https://apis.io/providers/buildzoom/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for BuildZoom: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/buildzoom/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
